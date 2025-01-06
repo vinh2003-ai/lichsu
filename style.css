@@ -1,0 +1,79 @@
+body {
+    background-image: url('7.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover; /* Make sure the image covers the whole page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image on the page */
+    color: rgb(15, 14, 13);
+    padding: 55px;
+}
+
+#thongtincoban {
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #060605;
+}
+
+#gioithieu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gioithieu img {
+    width: 25%;
+    padding: 25px;
+}
+
+#cactrandanhlichsu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dananh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ketthuc {
+    background: #d527c1;
+    padding: 35px;
+    color: #0c0808;
+}
+
+.tieude {
+    color: #c52828;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+li {
+    line-height: 2;
+}
+
+.noidung {
+    font-size: 18px;
+}
+
+#tongket {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tongket > h3 {
+    font-size: 34px;
+}
+
+#tongket > p {
+    font-size: 18px;
+}
